@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<title>AKULA MALLIKHARJUNA</title>
+<head>
+    <style>
+body{
+    background-image: url('https://wi.wallpapertip.com/wsimgs/196-1965497_website-background-wallpaper-wood.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+/* input[type=text] {
+            
+            border-radius: 5px 5px 5px 5px;
+            height:25px;
+            width:50%;
+        
+            
+        }
+input[type=Address] {
+            
+            border-radius: 5px 5px 5px 5px;
+            height:25px;
+            width:50%;
+            
+        }
+input[type=password] {
+            
+            border-radius: 5px 5px 5px 5px;
+            height:25px;
+            width:50%;
+            
+        } 
+input[type=email] {
+            
+            border-radius: 5px 5px 5px 5px;
+            height:25px;
+            width:50%;
+            
+        } 
+input[type=tel] {
+            
+            border-radius: 5px 5px 5px 5px;
+            height:25px;
+            width:50%;
+            
+        } */
+ #select{
+            
+            border-radius: 5px 5px 5px 5px;
+            height:25px;
+            width:50%;
+            
+        }       
+#events{
+    border-radius: 5px 5px 5px 5px;
+    height:25px;
+    width:26%;      
+}
+#register{
+    border-radius: 10px 10px 10px 10px;
+    height:45px;
+    width:30%;
+    font-size: 30px;
+    background-color:lightpink;
+    text-align: center; 
+    
+}
+.vt{
+    text-align: center; 
+}
+.middle{
+    text-align:center;
+    border: 8px;
+    border-color: rgb(31, 0, 0);
+    border-style: solid;
+    margin:auto;
+    width: 40%;
+}
+
+</style>
+<script src="email.js"></script>
+</head>
+<body>
+    
+<h1>
+    <div class="top" style="text-align:center;">
+<h1 style="font-size:40px;font-style: oblique; color:rgb(212, 88, 144);margin-top:
+10px;">VIT EVENT REGISTRATION FORM<br><img src="https://www.freelogovectors.net/svg04/vitlogo.svg" width="12%" height="6%"></h1>
+</div>
+<div class = "middle">
+    <form name="myForm" action="submit.html" onsubmit="return validateForm()" method="post">
+        <label for="fname">Name:<span style="margin-left:68px;"></span></label>
+  <input type="text" id="name" name="fname" placeholder="Enter your name" required><br>
+
+  <label for="Registration number">REG NO:<span style="margin-left:23px;"></span></label>
+  <input type="text" id="lname" name="lname" placeholder="Enter your registration number" required><br>
+
+  <label for="email">Email:<span style="margin-left:65px;"></span></label>
+  <input type="email" id="email" name="email" placeholder="Enter your VITemail" required><br>
+
+   <label for="paswd">Password:<span style="margin-left:15px;"></span></label>
+  <input type="password" id="password" name="paswd" placeholder="Enter your password" required><br>
+
+   <label for="Address">City:<span style="margin-left:87px;"></span></label>
+  <input type="text" id="address" name="Address" placeholder="Enter your address" required><br>
+
+   <label for="code">Zipcode:<span style="margin-left:38px;"></span></label>
+  <input type="number" id="zip" name="code" placeholder="Enter your zipcode" required><br>   
+
+  <label for="code">Mobile no:<span style="margin-left:9px;"></span></label>
+  <input type="number" id="mobile" name="code" placeholder="Enter your mobile number" required><br>
+
+  <label for="events">Events:<span style="margin-left:50px;"></span></label>
+  <select name = "events" id="events">
+    <option value = "None">None</option>
+    <option value = "dancing">Dancing</option>
+    <option value = "singing">Singing</option>
+    <option value = "drama">Drama</option>
+    <option value = "art">Art</option>
+    <option value = "debate">Debate</option>
+    <option value = "Script">Script</option>
+  </select> <br>
+  <div class="vt">
+  <input type="submit" value="Register" id="register" onclick="Validateform(document.form1.email)"><br>
+</div>
+</div>
+</h1>
+<script src="email.js"></script>
+</body>
+</html>
